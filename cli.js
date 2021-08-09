@@ -9,7 +9,7 @@ const questions = require('./qs.json').question
 let ar = []
 
 try {
-  // console.log(chalk.redBright(figlet.textSync('CREATE-PROFILE')))
+  console.log(chalk.redBright(figlet.textSync('CREATE-PROFILE')))
   const prom = objectFilter(promptAns(), arrr => typeof arrr === 'boolean' ? arrr : arrr.length > 0)
   if (!yesNo(prompt(chalk.greenBright.bold('Are you sure (Y/n):')))) {
     console.log(chalk.redBright.bold('Aborted !!'))
