@@ -1,0 +1,53 @@
+<p align="left"> 
+
+<% if(conf.counter) { %>![badge](https://komarev.com/ghpvc/?username=<%= conf.ghUname %>)<% } %>
+
+<% if(conf.webpage) { %>[![badge](https://img.shields.io/website?label=<%= conf.webpage %>&style=for-the-badge&url=https%3A%2F%2Falestor123.github.io)](<%= conf.webpage %>)<% } %>
+<% if(conf.twitterBadge) { %>[![badge](https://img.shields.io/twitter/follow/<%= conf.twitter %>?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/<%= conf.twitter %>)<% } %>
+</p>
+
+<%= conf.banner ? `![banner](${conf.banner})` : '' %>
+
+<h1 align="center"><%= conf.title %></h1>
+<h3 align="center"><%= conf.description %></h3>
+<%= '\n- ' + (conf.works ? conf.works.join('\n- ') : '') %>
+
+<% if(conf.stats) { %>
+### Blog Posts : 
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->    
+<% } %> 
+
+<% if(social && Object.keys(social).length > 0) { %>
+### Connect with me:
+<p align="left">
+<% for(var lol in social) { %> <a target="_blank" href="<%= socs[lol]+social[lol] %>">
+<img alt="<%= lol %>" src="https://cdn.jsdelivr.net/npm/simple-icons@5.8.1/icons/<%= lol.replace('.','dot') %>.svg" height="30" width="40"></a>
+<% } %>    
+</p>
+<% } %>    
+<% if(conf.skills && conf.skills.length > 0) { %>
+### Skills:
+<% conf.skills.forEach(i =>  { %> <img src="<%= i %>" alt="skills" width="40" height="40"> <% }) %>
+<% } %>
+<% if(conf.support) { %>
+
+### Support:
+<p><a href="https://www.buymeacoffee.com/<%= conf.support %>"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="<%= conf.support %>" /></a></p>
+<br></br>
+
+<% } %>
+<% if(Object.values(conf).some(entry => typeof entry === 'boolean')) { %>
+
+<p align="left">
+<% if(conf.codewarsBadge) { %><p><a href="https://www.codewars.com/users/<%= conf.codewars %>/" ><img alt="codewars"  src="https://www.codewars.com/users/<%= conf.codewars %>/badges/large" /> </a> </p><% } %> 
+<% if(conf.stats) { %><p><img alt="stats"  src="https://github-readme-stats.vercel.app/api?username=<%= conf.ghUname %>" /></p><% } %> 
+<% if(conf.steaks) { %><p><img alt="steak"  src="https://github-readme-streak-stats.herokuapp.com/?user=<%= conf.ghUname %>" /></p><% } %>
+<% if(conf.trophy) { %><p><img alt="trophy"  src="https://github-profile-trophy.vercel.app/?username=<%= conf.ghUname %>" /></p><% } %>   
+<% if(conf.languages) { %><p><img alt="langs"  src="https://github-readme-stats.vercel.app/api/top-langs?username=<%= conf.ghUname %>" /></p><% } %>    
+<br></br>
+</p>
+<% } %>
+---
+
+_This PROFILE was generated with ❤️ by [create-profile](https://github.com/alestor123/CREATE-PROFILE)_

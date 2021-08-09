@@ -1,0 +1,27 @@
+{
+    "question":[
+        {"question":"Name : ","field":"name"},
+        {"question":"Description : ","field":"description","defaultValue":"A developer from India"},
+        {"question":"Title : ","field":"title"},
+        {"question":"Banner(image URL) : ","field":"banner"},
+        {"question":"Work : ","field":"works"},
+        {"question":"Skills(image URL) : ","field":"skills"},
+        {"question":"Webpage : ","field":"webpage"},
+        {"question":"Github Usernamme : ","field":"ghUname"},
+        {"question":"Twitter Username: ","field":"twitter"},
+        {"question":"Dev.to Username: ","field":"dev.to"},
+        {"question":"Medium Username: ","field":"medium"},
+        {"question":"Youtube Username: ","field":"youtube"},
+        {"question":"Codewars Username: ","field":"codewars"},
+        {"question":"Buy Me A Coffee Username: ","field":"support" , "type":"boolean"},
+        {"question":"Display Visitor Count(Y/n): ","field":"counter", "type":"boolean"},
+        {"question":"Display Github Trophy(Y/n): ","field":"trophy", "type":"boolean"},
+        {"question":"Display Github Stats(Y/n): ","field":"stats", "type":"boolean"},
+        {"question":"Display Github SteaksY/n): ","field":"steaks", "type":"boolean"},
+        {"question":"Display Top Languages(Y/n): ","field":"languages", "type":"boolean"},
+        {"question":"Display Twitter Badge(Y/n): ","field":"twitterBadge", "type":"boolean"},
+        {"question":"Display Codewar Badge(Y/n): ","field":"codewarsBadge", "type":"boolean"},
+        {"question":"Display Blog Posts(Y/n): ","field":"blog", "type":"boolean" ,"msg":"You can find out how to configure this blog github action on https://github.com/marketplace/actions/blog-post-workflow"}
+               
+    ]
+}
