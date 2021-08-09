@@ -6,14 +6,13 @@
 [![badge](https://img.shields.io/twitter/follow/alestor123?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/alestor123)
 </p>
 
-![banner](wekjdnkwjednkwjednkjwednkwjendkwjednk)
+![banner](https://raw.githubusercontent.com/alestor123/alestor123/master/assets/icon.svg)
 
-<h1 align="center">wekjdnkwjednkwjdnkwejdnkwjednkwjednkwejdnkwjedn</h1>
-<h3 align="center">wkejdnkwjendkwjdnkwjdn</h3>
+<h1 align="center">Hi there, Im Alestor</h1>
+<h3 align="center">A Normal Mortal Web Developer With Immortal Dreams</h3>
 
-- kwednkwjednkwjdnwkejdn
-- wkejdnkwjdnkwjndkwjndkwend
-- ewdnkwejndkwjendkjwndkjwndkjwend
+- HHaving Fun In : Coding , Electronics , Badminton
+- Goals: Contribute more to Open Source projects
 
 
 ### Blog Posts : 
@@ -37,13 +36,13 @@
     
 
 ### Skills:
- <img src="kejwdnkwjednkjewdnkjwendkwjend" alt="skills" width="40" height="40">  <img src="wkjdnkwjednkwejdn" alt="skills" width="40" height="40">  <img src="ew" alt="skills" width="40" height="40"> 
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="skills" width="40" height="40">  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="skills" width="40" height="40">  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="skills" width="40" height="40"> 
 
 
 
 
 <p align="left">
-<p><a href="https://www.codewars.com/users/alestor123/" ><img alt="codewars"  src="https://www.codewars.com/users/alestor123/badges/large" /> </a> </p> 
+ 
 <p><img alt="stats"  src="https://github-readme-stats.vercel.app/api?username=alestor123" /></p> 
 <p><img alt="steak"  src="https://github-readme-streak-stats.herokuapp.com/?user=alestor123" /></p>
 <p><img alt="trophy"  src="https://github-profile-trophy.vercel.app/?username=alestor123" /></p>   
