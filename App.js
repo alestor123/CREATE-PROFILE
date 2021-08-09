@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 const { readFileSync } = require('fs')
 const { resolve } = require('path')
 const { render } = require('ejs')
@@ -7,7 +7,7 @@ const arrs = ['skills', 'works']
 const mand = ['name', 'description', 'title', 'ghUname']
 module.exports = conf => {
   if (!(conf && typeof conf === 'object' && checkConf(conf))) throw new Error('Please enter a valid config')
-  return render(readFileSync(resolve(__dirname,'ejs/md.ejs')).toString(), { conf, socs, social: filterKeys(conf, Object.keys(socs)) })
+  return render(readFileSync(resolve(__dirname, 'ejs/md.ejs')).toString(), { conf, socs, social: filterKeys(conf, Object.keys(socs)) })
 }
 
 function checkConf (conf) {

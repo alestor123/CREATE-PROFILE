@@ -8,7 +8,7 @@ const prompt = require('prompt-sync')()
 const questions = require('./qs.json').question
 let ar = []
 
-// try {
+try {
   console.log(chalk.redBright(figlet.textSync('CREATE-PROFILE')))
   const prom = objectFilter(promptAns(), arrr => typeof arrr === 'boolean' ? arrr : arrr.length > 0)
   if (!yesNo(prompt(chalk.greenBright.bold('Are you sure (Y/n):')))) {
@@ -18,9 +18,9 @@ let ar = []
   writeFileSync('README.md', ghP(prom))
   console.log(chalk.bold.greenBright('Done!!'))
   console.log(chalk.bold.greenBright('❤️ Thanks For Using create-profile ❤️'))
-// } catch (e) {
-  // console.log(chalk.red.bold('Oops we got a problem'))
-// }
+} catch (e) {
+  console.log(chalk.red.bold('Oops we got a problem'))
+}
 
 function promptAns () {
   const answers = {}
