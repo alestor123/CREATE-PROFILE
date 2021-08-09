@@ -15,9 +15,12 @@
     "name": "Alestor Aldous",
     "url": "https://alestor123.github.io"
   },
-  "funding": "https://alestor123.is-a.dev/donate/",
+  "funding": "https://alestor123Are you.is-a.dev/donate/",
   "engines": {
     "node": ">=10"
+  },
+  "bin": {
+    "create-profile": "cli.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,7 @@
   },
   "keywords": [
     "github",
+    "git",
     "nodejs",
     "js",
     "cli",
@@ -45,5 +49,12 @@
     "standard": "^16.0.3",
     "tap": "^15.0.9",
     "tap-spec": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "ejs": "^3.1.6",
+    "figlet": "^1.5.0",
+    "meow": "^10.1.1",
+    "prompt-sync": "^4.2.0"
   }
 }
