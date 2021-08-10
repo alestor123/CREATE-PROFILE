@@ -7,10 +7,6 @@
     "test": "standard && node test.js | tap-spec",
     "lint": "standard . --fix"
   },
-  "files": [
-    "App.js",
-    "cli.js"
-  ],
   "author": {
     "name": "Alestor Aldous",
     "url": "https://alestor123.github.io"
