@@ -23,3 +23,5 @@
 # Installation
 
 ``npm i -g create-profile ``
+
+<img src="./asset/create-profile.png" alt="screen">

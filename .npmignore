@@ -14,3 +14,5 @@ run.js
 test.js
 tst.md
 .nyc*
+asset
+.github
